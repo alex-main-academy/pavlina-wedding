@@ -258,14 +258,14 @@ body.is-loader {
 }
 
 .hero__title span {
-  margin-left: 12rem;
+  margin-left: 11rem;
 }
 
 .hero__title b {
   font-weight: 400;
   position: absolute;
-  right: 7rem;
-  top: 7rem;
+  right: 9rem;
+  top: 6rem;
 }
 
 .friend {
