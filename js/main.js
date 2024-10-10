@@ -51,8 +51,8 @@ form.addEventListener("submit", (event) => {
         .then((response) => {
             console.log("Success!", response);
             loader.classList.remove("active");
-            document.body.classList.remove("is-loader");
             success.classList.add("active");
+            document.body.classList.remove("is-loader");
 
             setTimeout(() => {
                 success.classList.remove("active");
